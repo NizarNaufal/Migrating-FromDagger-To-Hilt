@@ -1,4 +1,7 @@
 package id.migratingdagger.hilt.repository.entity
 
-class News {
-}
+data class News(
+    val id: Long,
+    val title: String,
+    val body: String
+)

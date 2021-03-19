@@ -1,4 +1,6 @@
 package id.migratingdagger.hilt.conf
 
-class Conf {
-}
+/**
+ * The Tag to use for the Logging
+ */
+const val TAG = "AdvDagger"

@@ -13,7 +13,7 @@ abstract class BasePresenter<M : Model, V : View<M>> : Presenter<M, V> {
     /**
      * The View
      */
-    private var view: V? = null
+    protected var view: V? = null
 
     @CallSuper
     override fun bind(v: V) {
